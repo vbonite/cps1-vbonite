@@ -1,0 +1,273 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+.row {
+	padding: 0;
+	margin: 0;
+}
+
+.navbar-brand {
+	padding: 0 10px 0;
+	opacity: 0.8;
+}
+
+.navbar {
+	position: absolute;
+	width: 100%;
+	line-height: 80px;
+	border-radius: 0;
+	background: transparent;
+	z-index: 100;
+	border: none;
+	transition: all .5s;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+
+#btn-apply-nav {
+	color: #fff;
+	border-color: #fff;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 0;
+	padding: 10px;
+	background: transparent;
+	transition: all .5s;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, 
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: transparent;
+    transition: all .5s;
+}
+
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+	background-color: rgba(0, 0, 0, 0.12);
+	transition: all .5s;
+}
+
+.navbar-inverse .navbar-toggle,
+.navbar-inverse .navbar-toggle:focus, 
+.navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+	border-color: #e0e0e0;
+	transition: all .5s;
+}
+
+.contact-us {
+	padding: 0;
+}
+
+.caption {
+	position: absolute;
+	top: 15%;
+	left: 7%;
+	width: 40%;
+}
+
+.caption h1 {
+	padding: 10px;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.caption p {
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	font-size: 18px;
+}
+
+.topbg {
+	width: 100%;
+	height: 80vh;
+	background: #004581;
+	position: relative;
+	z-index: -100;
+}
+
+.bottombg {
+	width: 100%;
+	height: 60vh;
+	z-index: -100;
+}
+
+.form-contact {
+	position: absolute;
+	background-color: grey;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 500px;
+	width: 90%;
+	border-bottom: 1px solid #e8e6e4;
+
+}
+
+.form-contact-left {
+	height: 100%;
+	background-color: #fff;
+	text-align: left;
+	padding: 20px;
+}
+
+.form-caption {
+	color: #004581;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 
+}
+
+.form-caption h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.form-control {
+	box-shadow: none;
+	border: none;
+	border-bottom: 1px solid grey;
+	border-radius: 0;
+}
+
+.form-group label {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+
+.usrform {
+	width: 100%;
+	height: 100px
+}
+
+.btn-contact {
+	border-radius: 0;
+	float: right;
+	background-color: #001b48;
+	border: none;
+	padding: 10px 20px 10px;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+
+.control-label {
+	display: block;
+}
+
+.form-contact-right {
+	height: 100%;
+	background-color: #001b48;
+	padding: 0;
+	text-align: center;
+}
+
+.form-details {
+	padding: 20px;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+.lighter span {
+	font-weight: lighter;
+}
+
+.form-details h2 {
+	margin-top: 60px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+.form-address {
+	margin-top: 40px;
+	width: 100%;
+	padding: 20px;
+	font-size: 14px;
+}
+
+.form-email {
+	margin-top: 40px;
+}
+
+.form-social-media {
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+.form-social-media img {
+	width: 30px;
+	height: 30px;
+	margin: 5px 10px 5px 10px;
+	background-color: transparent;
+}
+
+
+footer {
+	margin-top: 60px;
+	padding: 15px;
+	line-height: 1.5;
+	color: #06397D;
+	text-transform: capitalize;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+.trademark {
+	font-size: 12px;
+}
+
+.address {
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.social-media {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	padding: 20px;
+	border-right: 2px solid #004581; 
+	border-left: 2px solid #004581; 
+}
+
+.social-media a {
+	margin: 10px 20px 20px;
+}
+
+.social-media img {
+	width: 30px;
+	height: 30px;
+	background-color: #004581;
+}
+
+.email {
+	padding: 20px;
+	text-transform: lowercase;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+.clear:after {
+	content: "";
+	clear: both;
+	display: block;
+}
